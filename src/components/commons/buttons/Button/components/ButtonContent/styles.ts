@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 100%;
-  height: 100vh;
-
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 
-  column-gap: 2rem;
+  white-space: nowrap;
+
+  column-gap: 0.5rem;
 `

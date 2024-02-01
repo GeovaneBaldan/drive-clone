@@ -36,7 +36,7 @@ export const variants: TypeVariants = {
   h1: {
     fontSize: ['3rem'],
     $lineHeight: ['120%'],
-    color: [theme.colors.textPrimary],
+    color: [theme.colors.text.primary],
     fontFamily: [FONT_FAMILY],
     fontWeight: ['medium'],
     as: 'h1'
@@ -44,15 +44,15 @@ export const variants: TypeVariants = {
   h2: {
     fontSize: ['2.5rem'],
     $lineHeight: ['120%'],
-    color: [theme.colors.textPrimary],
+    color: [theme.colors.text.primary],
     fontFamily: [FONT_FAMILY],
     fontWeight: ['bold'],
     as: 'h2'
   },
   h3: {
     fontSize: ['2rem'],
-    $lineHeight: ['100%'],
-    color: [theme.colors.textPrimary],
+    $lineHeight: ['120%'],
+    color: [theme.colors.text.primary],
     fontFamily: [FONT_FAMILY],
     fontWeight: ['bold'],
     as: 'h3'
@@ -60,7 +60,7 @@ export const variants: TypeVariants = {
   h4: {
     fontSize: ['1.75rem'],
     $lineHeight: ['120%'],
-    color: [theme.colors.textPrimary],
+    color: [theme.colors.text.primary],
     fontFamily: [FONT_FAMILY],
     fontWeight: ['bold'],
     as: 'h4'
@@ -68,7 +68,7 @@ export const variants: TypeVariants = {
   h5: {
     fontSize: ['1.5rem'],
     $lineHeight: ['120%'],
-    color: [theme.colors.textPrimary],
+    color: [theme.colors.text.primary],
     fontFamily: [FONT_FAMILY],
     fontWeight: ['bold'],
     as: 'h5'
@@ -76,7 +76,7 @@ export const variants: TypeVariants = {
   b1: {
     fontSize: ['1rem'],
     $lineHeight: ['120%'],
-    color: [theme.colors.textPrimary],
+    color: [theme.colors.text.primary],
     fontFamily: [FONT_FAMILY],
     fontWeight: ['medium'],
     as: 'p'
@@ -84,7 +84,7 @@ export const variants: TypeVariants = {
   b2: {
     fontSize: ['0.8rem'],
     $lineHeight: ['120%'],
-    color: [theme.colors.textSecondary],
+    color: [theme.colors.text.secondary],
     fontFamily: [FONT_FAMILY],
     fontWeight: ['medium'],
     as: 'p'
@@ -92,7 +92,7 @@ export const variants: TypeVariants = {
   b3: {
     fontSize: ['0.8rem'],
     $lineHeight: ['120%'],
-    color: [theme.colors.textSecondary],
+    color: [theme.colors.text.secondary],
     fontFamily: [FONT_FAMILY],
     fontWeight: ['medium'],
     as: 'p'
@@ -100,7 +100,7 @@ export const variants: TypeVariants = {
   caption: {
     fontSize: ['0.75rem'],
     $lineHeight: ['120%'],
-    color: [theme.colors.textPrimary],
+    color: [theme.colors.text.primary],
     fontFamily: [FONT_FAMILY],
     fontWeight: ['regular'],
     as: 'p'
@@ -108,7 +108,7 @@ export const variants: TypeVariants = {
   legal: {
     fontSize: ['0.625rem'],
     $lineHeight: ['120%'],
-    color: [theme.colors.textPrimary],
+    color: [theme.colors.text.primary],
     fontFamily: [FONT_FAMILY],
     fontWeight: ['regular'],
     as: 'p'

@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from 'react'
+import { PropsWithChildren } from 'react'
 import { FontWeights } from './config'
 
 export interface TypeVariant {
@@ -39,5 +39,5 @@ export interface PixelTypeProps extends PropsWithChildren {
   fontWeight?: keyof FontWeights | (keyof FontWeights)[]
   isLoading?: boolean
 
-  as?: string | React.ComponentType<any>
+  as?: keyof JSX.IntrinsicElements
 }

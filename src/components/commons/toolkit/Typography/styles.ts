@@ -4,22 +4,19 @@ import { normalizeEntry } from './utils/normalizeEntry'
 import { normalizeWeight } from './utils/normalizeWeight'
 
 type ContainerProps = {
-  $align: 'center' | 'left' | 'right'
-  fontSize: string | string[]
-  $lineHeight: string | string[]
-  $marginTop: string | string[]
-  $marginLeft: string | string[]
-  $marginRight: string | string[]
-  $marginBottom: string | string[]
-  fontWeight: keyof FontWeights | (keyof FontWeights)[]
-  color: string | string[]
+  color?: string | string[]
+  fontSize?: string | string[]
+  $lineHeight?: string | string[]
+  $marginTop?: string | string[]
+  $marginLeft?: string | string[]
+  $marginRight?: string | string[]
+  $marginBottom?: string | string[]
+  $align?: 'center' | 'left' | 'right'
+  fontWeight?: keyof FontWeights | (keyof FontWeights)[]
 
-  isLoading: boolean
-  fontFamily: string
-} & React.DetailedHTMLProps<
-  React.HTMLAttributes<HTMLParagraphElement>,
-  HTMLParagraphElement
->
+  isLoading?: boolean
+  fontFamily?: string | string[]
+}
 
 const SKELETON_GRADIENT = 'linear-gradient(-45deg, #ECECEC, #FAFAFA)'
 

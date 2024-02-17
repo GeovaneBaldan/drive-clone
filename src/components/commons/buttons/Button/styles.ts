@@ -18,14 +18,15 @@ export const Container = styled.button<ContainerProps>`
   padding: 0.5rem 1.5rem;
   border-radius: ${({ theme }) => theme.borderRadius.button};
 
-  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out,
-    color 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
-  cursor: ${({ $loading }) => ($loading ? 'progress' : 'pointer')};
+  cursor: ${({ $loading }) => ($loading ? 'not-allowed' : 'pointer')};
 
   &:disabled {
     cursor: not-allowed;
   }
+
+  filter: ${({ $loading }) => ($loading ? 'opacity(0.5)' : 'none')};
 
   ${({ $variant, $color }) => mapVariantToCss($variant, $color)};
 `
